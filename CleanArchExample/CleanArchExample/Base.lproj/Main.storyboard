@@ -36,6 +36,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pg8-mM-NFa">
                                 <rect key="frame" x="183" y="353" width="48" height="30"/>
                                 <state key="normal" title="Buscar"/>
+                                <connections>
+                                    <action selector="actionSearchCity:" destination="yjp-KF-QOa" eventType="touchUpInside" id="PxB-g6-NrX"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nf4-RM-TYE">
                                 <rect key="frame" x="16" y="89" width="382" height="30"/>
@@ -56,7 +59,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Search City" id="yLv-O2-0rD"/>
                     <connections>
-                        <segue destination="eJe-NW-ucB" kind="show" id="Zge-5b-io1"/>
+                        <outlet property="actionSearchCity" destination="pg8-mM-NFa" id="Xjf-di-UN3"/>
+                        <outlet property="txtCity" destination="Nf4-RM-TYE" id="dSU-3Y-zrn"/>
+                        <segue destination="eJe-NW-ucB" kind="show" identifier="idWeather" id="Zge-5b-io1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vkd-5Z-UMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
