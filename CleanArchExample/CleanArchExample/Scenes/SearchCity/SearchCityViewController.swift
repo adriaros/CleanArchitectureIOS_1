@@ -6,6 +6,6 @@
 //  Copyright © 2018 adriaros. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class SearchCityViewController{}
+class SearchCityViewController: UIViewController{}
