@@ -13,7 +13,6 @@
 		FB46E0142004F4B200B83D64 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46E0132004F4B200B83D64 /* ObjectMapper.framework */; };
 		FB46E0162004F4B700B83D64 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB46E0152004F4B700B83D64 /* SwiftyJSON.framework */; };
 		FBABAA312004E178002A3CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABAA302004E178002A3CDF /* AppDelegate.swift */; };
-		FBABAA332004E178002A3CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABAA322004E178002A3CDF /* ViewController.swift */; };
 		FBABAA362004E178002A3CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBABAA342004E178002A3CDF /* Main.storyboard */; };
 		FBABAA382004E178002A3CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBABAA372004E178002A3CDF /* Assets.xcassets */; };
 		FBABAA3B2004E178002A3CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBABAA392004E178002A3CDF /* LaunchScreen.storyboard */; };
@@ -46,7 +45,6 @@
 		FB46E0152004F4B700B83D64 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		FBABAA2D2004E178002A3CDF /* CleanArchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBABAA302004E178002A3CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBABAA322004E178002A3CDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBABAA352004E178002A3CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBABAA372004E178002A3CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBABAA3A2004E178002A3CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				FBABAA442004E2B0002A3CDF /* Scenes */,
 				FBABAA452004E2B6002A3CDF /* Data */,
 				FBABAA422004E28A002A3CDF /* Domain */,
-				FBABAA322004E178002A3CDF /* ViewController.swift */,
 				FBABAA342004E178002A3CDF /* Main.storyboard */,
 				FBABAA372004E178002A3CDF /* Assets.xcassets */,
 				FBABAA392004E178002A3CDF /* LaunchScreen.storyboard */,
@@ -291,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBABAA332004E178002A3CDF /* ViewController.swift in Sources */,
 				FBABAA632004E55C002A3CDF /* SearchCityRouter.swift in Sources */,
 				FBABAA672004E5C4002A3CDF /* SearchCityWorker.swift in Sources */,
 				FBABAA5B2004E4D1002A3CDF /* SearchCityConfigurator.swift in Sources */,
