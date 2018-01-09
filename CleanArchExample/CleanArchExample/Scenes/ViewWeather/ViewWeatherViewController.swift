@@ -8,4 +8,17 @@
 
 import UIKit
 
-class ViewWeatherViewController: UIViewController{}
+class ViewWeatherViewController: UIViewController{
+    
+    @IBOutlet weak var lblCity: UILabel!
+    @IBOutlet weak var lblTemperature: UILabel!
+    @IBOutlet weak var lblDescription: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+}

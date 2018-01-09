@@ -75,13 +75,50 @@
                     <view key="view" contentMode="scaleToFill" id="nns-rE-pCG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaG-3a-sQn">
+                                <rect key="frame" x="20" y="84" width="374" height="31.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkz-6R-gQd">
+                                <rect key="frame" x="10" y="197" width="394" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgl-Gd-OQY">
+                                <rect key="frame" x="0.0" y="356.66666666666669" width="414" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JaG-3a-sQn" firstAttribute="leading" secondItem="h6X-di-5rk" secondAttribute="leading" constant="20" id="1SI-Eo-JV8"/>
+                            <constraint firstItem="Mgl-Gd-OQY" firstAttribute="leading" secondItem="h6X-di-5rk" secondAttribute="leading" id="7jL-Mm-HBD"/>
+                            <constraint firstItem="rkz-6R-gQd" firstAttribute="leading" secondItem="h6X-di-5rk" secondAttribute="leading" constant="10" id="AGi-CT-EmY"/>
+                            <constraint firstItem="h6X-di-5rk" firstAttribute="trailing" secondItem="Mgl-Gd-OQY" secondAttribute="trailing" id="GxG-br-QMz"/>
+                            <constraint firstItem="rkz-6R-gQd" firstAttribute="top" secondItem="JaG-3a-sQn" secondAttribute="bottom" constant="81.666666666666671" id="H5I-NC-Gfv"/>
+                            <constraint firstItem="Mgl-Gd-OQY" firstAttribute="centerY" secondItem="nns-rE-pCG" secondAttribute="centerY" id="MhL-mI-zbV"/>
+                            <constraint firstItem="h6X-di-5rk" firstAttribute="trailing" secondItem="rkz-6R-gQd" secondAttribute="trailing" constant="10" id="Niv-cb-hwY"/>
+                            <constraint firstItem="h6X-di-5rk" firstAttribute="trailing" secondItem="JaG-3a-sQn" secondAttribute="trailing" constant="20" id="k0O-nB-GVM"/>
+                            <constraint firstItem="JaG-3a-sQn" firstAttribute="top" secondItem="h6X-di-5rk" secondAttribute="top" constant="20" id="kNq-nj-2Rh"/>
+                            <constraint firstItem="Mgl-Gd-OQY" firstAttribute="centerX" secondItem="nns-rE-pCG" secondAttribute="centerX" id="rST-mc-tds"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h6X-di-5rk"/>
                     </view>
+                    <connections>
+                        <outlet property="lblCity" destination="JaG-3a-sQn" id="Rsk-hh-ibr"/>
+                        <outlet property="lblDescription" destination="Mgl-Gd-OQY" id="Blr-wr-pBS"/>
+                        <outlet property="lblTemperature" destination="rkz-6R-gQd" id="iQS-Qn-mpj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mpx-vX-Z2i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="107"/>
+            <point key="canvasLocation" x="679.71014492753625" y="106.79347826086958"/>
         </scene>
     </scenes>
 </document>
