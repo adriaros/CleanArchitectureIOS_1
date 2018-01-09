@@ -6,6 +6,29 @@
 //  Copyright © 2018 adriaros. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import ObjectMapper
 
-class Forecast{}
+class Forecast: Mappable {
+    var id:Int?
+    var cod:Int?
+    var name:String?
+    var dt:Int?
+    var base:String?
+    var visibility:Int?
+    var main:WeatherData?
+    var weather:[Weather]?
+    
+    required init?(map: Map) {}
+    
+    func mapping(map: Map) {
+        id <- map["id"]
+        cod <- map["cod"]
+        name <- map["name"]
+        dt <- map["dt"]
+        base <- map["base"]
+        visibility <- map["visibility"]
+        main <- map["main"]
+        weather <- map["weather"]
+    }
+}
